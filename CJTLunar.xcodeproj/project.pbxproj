@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1317FCE71E7934180000A68C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317FCE61E7934180000A68C /* main.m */; };
+		1317FCEA1E7934180000A68C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317FCE91E7934180000A68C /* AppDelegate.m */; };
+		1317FCED1E7934180000A68C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317FCEC1E7934180000A68C /* ViewController.m */; };
+		1317FCF01E7934180000A68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1317FCEE1E7934180000A68C /* Main.storyboard */; };
+		1317FCF21E7934180000A68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1317FCF11E7934180000A68C /* Assets.xcassets */; };
+		1317FCF51E7934180000A68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1317FCF31E7934180000A68C /* LaunchScreen.storyboard */; };
+		1317FD001E7934180000A68C /* CJTLunarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317FCFF1E7934180000A68C /* CJTLunarTests.m */; };
+		1317FD0B1E7934180000A68C /* CJTLunarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317FD0A1E7934180000A68C /* CJTLunarUITests.m */; };
+		1317FD221E7939B20000A68C /* lunarcalenda.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1317FD1F1E7939B20000A68C /* lunarcalenda.plist */; };
+		1317FD231E7939B20000A68C /* solarOrLunar.c in Sources */ = {isa = PBXBuildFile; fileRef = 1317FD201E7939B20000A68C /* solarOrLunar.c */; };
+		1317FD261E793A030000A68C /* CJTLunarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317FD251E793A030000A68C /* CJTLunarPicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1317FCFC1E7934180000A68C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1317FCDA1E7934180000A68C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1317FCE11E7934180000A68C;
+			remoteInfo = CJTLunar;
+		};
+		1317FD071E7934180000A68C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1317FCDA1E7934180000A68C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1317FCE11E7934180000A68C;
+			remoteInfo = CJTLunar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1317FCE21E7934180000A68C /* CJTLunar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJTLunar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1317FCE61E7934180000A68C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1317FCE81E7934180000A68C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1317FCE91E7934180000A68C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1317FCEB1E7934180000A68C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1317FCEC1E7934180000A68C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1317FCEF1E7934180000A68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1317FCF11E7934180000A68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1317FCF41E7934180000A68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1317FCF61E7934180000A68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1317FCFB1E7934180000A68C /* CJTLunarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJTLunarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1317FCFF1E7934180000A68C /* CJTLunarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJTLunarTests.m; sourceTree = "<group>"; };
+		1317FD011E7934180000A68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1317FD061E7934180000A68C /* CJTLunarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJTLunarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1317FD0A1E7934180000A68C /* CJTLunarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJTLunarUITests.m; sourceTree = "<group>"; };
+		1317FD0C1E7934180000A68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1317FD1F1E7939B20000A68C /* lunarcalenda.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lunarcalenda.plist; sourceTree = "<group>"; };
+		1317FD201E7939B20000A68C /* solarOrLunar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = solarOrLunar.c; sourceTree = "<group>"; };
+		1317FD211E7939B20000A68C /* solarOrLunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solarOrLunar.h; sourceTree = "<group>"; };
+		1317FD241E793A030000A68C /* CJTLunarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTLunarPicker.h; sourceTree = "<group>"; };
+		1317FD251E793A030000A68C /* CJTLunarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTLunarPicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1317FCDF1E7934180000A68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1317FCF81E7934180000A68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1317FD031E7934180000A68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1317FCD91E7934180000A68C = {
+			isa = PBXGroup;
+			children = (
+				1317FCE41E7934180000A68C /* CJTLunar */,
+				1317FCFE1E7934180000A68C /* CJTLunarTests */,
+				1317FD091E7934180000A68C /* CJTLunarUITests */,
+				1317FCE31E7934180000A68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1317FCE31E7934180000A68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1317FCE21E7934180000A68C /* CJTLunar.app */,
+				1317FCFB1E7934180000A68C /* CJTLunarTests.xctest */,
+				1317FD061E7934180000A68C /* CJTLunarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1317FCE41E7934180000A68C /* CJTLunar */ = {
+			isa = PBXGroup;
+			children = (
+				1317FCE81E7934180000A68C /* AppDelegate.h */,
+				1317FCE91E7934180000A68C /* AppDelegate.m */,
+				1317FCEB1E7934180000A68C /* ViewController.h */,
+				1317FCEC1E7934180000A68C /* ViewController.m */,
+				1317FD1E1E7939B20000A68C /* CJTLunarPicker */,
+				1317FCEE1E7934180000A68C /* Main.storyboard */,
+				1317FCF11E7934180000A68C /* Assets.xcassets */,
+				1317FCF31E7934180000A68C /* LaunchScreen.storyboard */,
+				1317FCF61E7934180000A68C /* Info.plist */,
+				1317FCE51E7934180000A68C /* Supporting Files */,
+			);
+			path = CJTLunar;
+			sourceTree = "<group>";
+		};
+		1317FCE51E7934180000A68C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1317FCE61E7934180000A68C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1317FCFE1E7934180000A68C /* CJTLunarTests */ = {
+			isa = PBXGroup;
+			children = (
+				1317FCFF1E7934180000A68C /* CJTLunarTests.m */,
+				1317FD011E7934180000A68C /* Info.plist */,
+			);
+			path = CJTLunarTests;
+			sourceTree = "<group>";
+		};
+		1317FD091E7934180000A68C /* CJTLunarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1317FD0A1E7934180000A68C /* CJTLunarUITests.m */,
+				1317FD0C1E7934180000A68C /* Info.plist */,
+			);
+			path = CJTLunarUITests;
+			sourceTree = "<group>";
+		};
+		1317FD1E1E7939B20000A68C /* CJTLunarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1317FD1F1E7939B20000A68C /* lunarcalenda.plist */,
+				1317FD201E7939B20000A68C /* solarOrLunar.c */,
+				1317FD211E7939B20000A68C /* solarOrLunar.h */,
+				1317FD241E793A030000A68C /* CJTLunarPicker.h */,
+				1317FD251E793A030000A68C /* CJTLunarPicker.m */,
+			);
+			path = CJTLunarPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1317FCE11E7934180000A68C /* CJTLunar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1317FD0F1E7934180000A68C /* Build configuration list for PBXNativeTarget "CJTLunar" */;
+			buildPhases = (
+				1317FCDE1E7934180000A68C /* Sources */,
+				1317FCDF1E7934180000A68C /* Frameworks */,
+				1317FCE01E7934180000A68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJTLunar;
+			productName = CJTLunar;
+			productReference = 1317FCE21E7934180000A68C /* CJTLunar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1317FCFA1E7934180000A68C /* CJTLunarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1317FD121E7934180000A68C /* Build configuration list for PBXNativeTarget "CJTLunarTests" */;
+			buildPhases = (
+				1317FCF71E7934180000A68C /* Sources */,
+				1317FCF81E7934180000A68C /* Frameworks */,
+				1317FCF91E7934180000A68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1317FCFD1E7934180000A68C /* PBXTargetDependency */,
+			);
+			name = CJTLunarTests;
+			productName = CJTLunarTests;
+			productReference = 1317FCFB1E7934180000A68C /* CJTLunarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1317FD051E7934180000A68C /* CJTLunarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1317FD151E7934180000A68C /* Build configuration list for PBXNativeTarget "CJTLunarUITests" */;
+			buildPhases = (
+				1317FD021E7934180000A68C /* Sources */,
+				1317FD031E7934180000A68C /* Frameworks */,
+				1317FD041E7934180000A68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1317FD081E7934180000A68C /* PBXTargetDependency */,
+			);
+			name = CJTLunarUITests;
+			productName = CJTLunarUITests;
+			productReference = 1317FD061E7934180000A68C /* CJTLunarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1317FCDA1E7934180000A68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CJT;
+				TargetAttributes = {
+					1317FCE11E7934180000A68C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YPJR895ZNV;
+						ProvisioningStyle = Automatic;
+					};
+					1317FCFA1E7934180000A68C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YPJR895ZNV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1317FCE11E7934180000A68C;
+					};
+					1317FD051E7934180000A68C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YPJR895ZNV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1317FCE11E7934180000A68C;
+					};
+				};
+			};
+			buildConfigurationList = 1317FCDD1E7934180000A68C /* Build configuration list for PBXProject "CJTLunar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1317FCD91E7934180000A68C;
+			productRefGroup = 1317FCE31E7934180000A68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1317FCE11E7934180000A68C /* CJTLunar */,
+				1317FCFA1E7934180000A68C /* CJTLunarTests */,
+				1317FD051E7934180000A68C /* CJTLunarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1317FCE01E7934180000A68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1317FCF51E7934180000A68C /* LaunchScreen.storyboard in Resources */,
+				1317FCF21E7934180000A68C /* Assets.xcassets in Resources */,
+				1317FD221E7939B20000A68C /* lunarcalenda.plist in Resources */,
+				1317FCF01E7934180000A68C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1317FCF91E7934180000A68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1317FD041E7934180000A68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1317FCDE1E7934180000A68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1317FCED1E7934180000A68C /* ViewController.m in Sources */,
+				1317FCEA1E7934180000A68C /* AppDelegate.m in Sources */,
+				1317FCE71E7934180000A68C /* main.m in Sources */,
+				1317FD231E7939B20000A68C /* solarOrLunar.c in Sources */,
+				1317FD261E793A030000A68C /* CJTLunarPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1317FCF71E7934180000A68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1317FD001E7934180000A68C /* CJTLunarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1317FD021E7934180000A68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1317FD0B1E7934180000A68C /* CJTLunarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1317FCFD1E7934180000A68C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1317FCE11E7934180000A68C /* CJTLunar */;
+			targetProxy = 1317FCFC1E7934180000A68C /* PBXContainerItemProxy */;
+		};
+		1317FD081E7934180000A68C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1317FCE11E7934180000A68C /* CJTLunar */;
+			targetProxy = 1317FD071E7934180000A68C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1317FCEE1E7934180000A68C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1317FCEF1E7934180000A68C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1317FCF31E7934180000A68C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1317FCF41E7934180000A68C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1317FD0D1E7934180000A68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1317FD0E1E7934180000A68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1317FD101E7934180000A68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YPJR895ZNV;
+				INFOPLIST_FILE = CJTLunar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJT.CJTLunar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1317FD111E7934180000A68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YPJR895ZNV;
+				INFOPLIST_FILE = CJTLunar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJT.CJTLunar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1317FD131E7934180000A68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YPJR895ZNV;
+				INFOPLIST_FILE = CJTLunarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJT.CJTLunarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJTLunar.app/CJTLunar";
+			};
+			name = Debug;
+		};
+		1317FD141E7934180000A68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YPJR895ZNV;
+				INFOPLIST_FILE = CJTLunarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJT.CJTLunarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CJTLunar.app/CJTLunar";
+			};
+			name = Release;
+		};
+		1317FD161E7934180000A68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YPJR895ZNV;
+				INFOPLIST_FILE = CJTLunarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJT.CJTLunarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CJTLunar;
+			};
+			name = Debug;
+		};
+		1317FD171E7934180000A68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YPJR895ZNV;
+				INFOPLIST_FILE = CJTLunarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJT.CJTLunarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CJTLunar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1317FCDD1E7934180000A68C /* Build configuration list for PBXProject "CJTLunar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1317FD0D1E7934180000A68C /* Debug */,
+				1317FD0E1E7934180000A68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1317FD0F1E7934180000A68C /* Build configuration list for PBXNativeTarget "CJTLunar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1317FD101E7934180000A68C /* Debug */,
+				1317FD111E7934180000A68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1317FD121E7934180000A68C /* Build configuration list for PBXNativeTarget "CJTLunarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1317FD131E7934180000A68C /* Debug */,
+				1317FD141E7934180000A68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1317FD151E7934180000A68C /* Build configuration list for PBXNativeTarget "CJTLunarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1317FD161E7934180000A68C /* Debug */,
+				1317FD171E7934180000A68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1317FCDA1E7934180000A68C /* Project object */;
+}
